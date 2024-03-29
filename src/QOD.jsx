@@ -4,15 +4,8 @@ import { Model } from 'survey-core';
 import { Survey } from 'survey-react-ui';
 
 export default function () {
-    const questions = [{
-        type: "radiogroup",
-        name: "question0",
-        title: "What is the most common cause of lifeguard injuries?",
-        choices: [
-            "Slip and fall accidents", "Pool chemicals", "Sunburns", "Sharks"
-        ],
-        correctAnswer: "Slip and fall accidents"
-    },
+    const questions = [
+    
     {
         type: "radiogroup",
         name: "question1",
